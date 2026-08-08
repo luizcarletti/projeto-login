@@ -59,10 +59,44 @@ section#login {
 #forms > p {
     text-align: center;
     font-size: 1.05em;
+    margin-bottom: 10px;
 }
 
 #forms {
     display: block;
     padding: 10px;
+}
+
+form > div.campo {
+    display: block;
+    background-color: rgb(151, 50, 50);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    font-size: 1em;
+    background-color: rgba(169, 169, 169, 0.671);
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgba(41, 41, 41, 0.671);;
+
+}
+
+form > a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }
 
