@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <!-- <span class="material-symbols-outlined"></span> --> 
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="img"></div>
+            <div id="img">
+                <img id="icon1" src="imagens/cell-icon.svg.svg" alt="">
+                <img id="icon2" src="imagens/cell2-icon.svg.svg" alt="">
+                <img id="icon3" src="imagens/cell3-icon.svg.svg" alt="">
+            </div>
             <div id="forms">
                 <h1>Seja bem vindo!</h1>
                 <p>Faça seu login</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post" autocomplete="on"></form>
+                    <div class="campo">
+                        <label for="imail"></label>
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="login" id="imail" placeholder="email" required maxlength="20" autocomplete="email">
+                    </div>
+                    <div class="campo">
+                        <label for="ipass"></label>
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="ipass" placeholder="senha" required minlength="8" autocomplete="current-password">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci a senha</a>
             </div>
         </section>
     </main>
