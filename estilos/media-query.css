@@ -12,6 +12,7 @@
     
     #icon2 {
         display: block;
+        transform: translateY(38%);
     }
 
     section#login {
@@ -38,6 +39,7 @@
     #icon3 {
         display: block;
         margin-right: 10px;
+        transform: translateY(18%);
     }
 
     section#login {

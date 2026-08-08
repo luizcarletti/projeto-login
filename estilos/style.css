@@ -38,7 +38,6 @@ section#login {
 #img {
     display: block;
     height: 200px;
-    background-color: rgba(0, 255, 255, 0.233);
 }
 
 #icon1 {
@@ -110,7 +109,6 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
     background-color: rgba(41, 41, 41, 0.671);;
-
 }
 
 form > a {
