@@ -69,12 +69,31 @@ section#login {
 
 form > div.campo {
     display: block;
-    background-color: rgb(151, 50, 50);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 40px;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+div.campo > span{
+    background-color: white;
+    padding: 2px;
+    width: 30px;
+    transform: translateY(6px);
+}
+
+div.campo > input {
+    width: 216px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    transform: translateY(-1px);
+}
+
+div.campo > input:focus {
+    background-color: rgba(196, 196, 196, 0.452);
 }
 
 form > input[type=submit] {
@@ -98,5 +117,6 @@ form > a {
     display: block;
     text-align: center;
     margin-top: 10px;
-}
 
+
+}
