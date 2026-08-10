@@ -5,9 +5,10 @@
     #icon1 {display: none;}
 
     #img {
-        float: right;
+        background-color: #eadcdc;
         width: 40%;
         height: 100%;
+        margin-top: 0px;
     }
     
     #icon2 {
@@ -16,12 +17,18 @@
     }
 
     section#login {
+        display: flex;
         width: 700px;
     }
 
-    section#forms {
-        float: left;
-        width: 70%;
+    div#forms {
+        border: 1px solid gray;
+        border-radius: 15px;
+        margin: auto;
+    }
+
+    form > input[type=submit] {
+        width: 100%;
     }
 }
 
@@ -30,9 +37,11 @@
     #icon2 {display: none;}
 
     #img{
+        background-color: #efe6ff;
         float: left;
         width: 40%;
         height: 100%;
+        margin-top: 0px;
     }
 
 
@@ -43,11 +52,18 @@
     }
 
     section#login {
+        display: flex;
         width: 940px;
     }
 
-    section#forms {
-        float: right;
-        width: 50%;
+    div#forms {
+        width: 450px;
+        border: 1px solid gray;
+        border-radius: 15px;
+        margin: auto;
+    }
+
+    form > input[type=submit] {
+        width: 100%;
     }
 }
