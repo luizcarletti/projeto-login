@@ -87,6 +87,7 @@ div.campo > span{
 div.campo > input {
     width: 216px;
     height: 85%;
+    padding-left: 10px;
     border-radius: 10px;
     border: 1px solid black;
     transform: translateY(-1px);
